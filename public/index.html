@@ -1,0 +1,782 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.123.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+<title>Caleb Karanja&#39;s Data Science Portfolio</title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="//localhost:4321/css/main.css"/>
+
+<link rel="stylesheet" href="//localhost:4321/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="//localhost:4321/css/custom.css"/>
+
+
+    
+
+
+</head>
+
+<body>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="//localhost:4321/">
+        <span>Caleb</span>
+        <span>Karanja</span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="//localhost:4321/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:4321/img/showcase/anime_4.gif"
+      data-srcset="//localhost:4321/img/showcase/anime_4.gif 1x, //localhost:4321/img/showcase/anime_4.gif 1x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello,I’m Caleb Karanja.
+          <br />
+          <span
+            >Data Analyst</span
+          >
+        </h1>
+        <p class="lead">
+          Caleb, a skilled data analyst, brings a wealth of experience in collecting, transforming, and organizing data to facilitate informed decision-making processes. With proficiency in various analytical tools such as SQL, spreadsheets, Tableau, and R, he excels in extracting actionable insights from complex datasets.
+        </p>
+        <a
+          href="mailto:mkcaleb@outlook.com"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact Caleb
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/caleb-munene" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/MuneneCaleb?tab=repositories" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:4321/img/showcase/anime_4.gif"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-20 pt-20 section--border-bottom" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/who-am-i/pic_3.jpg"
+          data-srcset="//localhost:4321/img/who-am-i/pic_3.jpg 1x, //localhost:4321/img/who-am-i/pic_3.jpg 1x"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead">
+          <p class="lead"> <strong>I am an experienced health information professional with a strong background in data management and analysis. My expertise lies in developing data collection forms using tools like Google Forms and ODK, and analyzing data using R, SQL, SPSS, and Excel. I am well-versed in administering data collection tools, conducting research, managing health records, writing reports, and creating data visualizations with tools such as Tableau, MS PowerPoint, Google Data Studio, R Markdown, and GIS maps. I possess excellent verbal and written communication skills, being fluent in English and Swahili, and having a growing proficiency in French. </p> <p class="lead"> <strong>I am passionate about leveraging innovative technology solutions to advance patient care and public health. Through my fieldwork and research experience, I have successfully facilitated focus group discussions, conducted in-depth and key informant interviews, summarized project monitoring data, and accurately transcribed audio recordings. I have also administered structured questionnaires, collected quantitative and qualitative data, and ensured accurate documentation while prioritizing subject confidentiality. </p> </p>
+        </p>
+        <a
+          href="https://www.linkedin.com/in/caleb-munene"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Portfolio
+    </h2>
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Dashboard to visualize the 2014 Kenya HIV Prevalence data using R</h3>
+        <p class="lead">
+          The Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely.
+        </p>
+        <a href="https://mkcaleb.shinyapps.io/hivprevalence/?_ga=2.92824286.2126620061.1681737881-1873350006.1681737881" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/epi_9.jpg"
+          data-srcset="//localhost:4321/img/works/epi_9.jpg 1x, //localhost:4321/img/works/epi_9.jpg 2x"
+          alt="Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/m_1.jpg"
+          data-srcset="//localhost:4321/img/works/m_1.jpg 1x, //localhost:4321/img/works/m_1.jpg 2x"
+          alt="How Can a Wellness Technology Company Play It Smart"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>How Can a Wellness Technology Company Play It Smart</h3>
+        <p class="lead">
+          In the Google Data Analytics Capstone project:How Can a Wellness Technology Company Play It Smart,utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team.
+        </p>
+        <a href="https://medium.com/@calebmunene3/how-can-a-wellness-technology-company-play-it-smart-google-data-analytics-capstone-1bca1f59c9f7" class="btn btn-primary" target="_blank"
+          >Read blog<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Data collection using Android mobile devices, Open Data Kit (ODK)</h3>
+        <p class="lead">
+          Developed ODK questionnaire for research on factors influencing uptake of immunization services rural, Kenya.
+        </p>
+        <a href="https://ee.humanitarianresponse.info/x/idBGQQgN" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/odk_2.jpg"
+          data-srcset="//localhost:4321/img/works/odk_2.jpg 1x, //localhost:4321/img/works/odk_2.jpg 2x"
+          alt="Data collection using Android mobile devices, Open Data Kit (ODK)"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/epi_11.jpg"
+          data-srcset="//localhost:4321/img/works/epi_11.jpg 1x, //localhost:4321/img/works/epi_11.jpg 2x"
+          alt="World Internet Users Dashboard"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>World Internet Users Dashboard</h3>
+        <p class="lead">
+          The World Internet Users Dashboard was developed using R, involving data cleaning, analysis, and visualization. Various statistical techniques were applied to analyze the data, and a dashboard was designed with charts and graphs. This dashboard effectively communicated key insights on world internet users to its intended audience.
+        </p>
+        <a href="https://rpubs.com/munenecaleb/997560" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Data collection using Android mobile devices, Open Data Kit (ODK)</h3>
+        <p class="lead">
+          Developed ODK questionnaire for research on factors affecting the uptake of antenatal care services in Somalia
+        </p>
+        <a href="https://ee.humanitarianresponse.info/x/ZNTaCpwh" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/odk_1.jpg"
+          data-srcset="//localhost:4321/img/works/odk_1.jpg 1x, //localhost:4321/img/works/odk_1.jpg 2x"
+          alt="Data collection using Android mobile devices, Open Data Kit (ODK)"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/epi_3.jpg"
+          data-srcset="//localhost:4321/img/works/epi_3.jpg 1x, //localhost:4321/img/works/epi_3.jpg 2x"
+          alt="Kenya EPI analysis Google Data Studio dashboard"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Kenya EPI analysis Google Data Studio dashboard</h3>
+        <p class="lead">
+          This Google Data Studio dashboard offers a comprehensive analysis of Kenya's Expanded Program on Immunization (EPI), focusing on pentavalent coverage and dropout rates across different counties. The dashboard is meticulously crafted to provide stakeholders with actionable insights and facilitate informed decision-making in healthcare management.
+        </p>
+        <a href="https://lookerstudio.google.com/reporting/bcf4f7a3-6f39-449e-a6ee-b391865442c2" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">Nov 2023 - Dec 2023</div>
+                    <div class="experience__title">Research Assistant</div>
+                    <div class="experience__company">Africa Research and Data (ARD)</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Aug 2022 – April 2023</div>
+                    <div class="experience__title">Research Assistant</div>
+                    <div class="experience__company">Kenyatta University</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Jun 2022 – Dec 2022</div>
+                    <div class="experience__title">Research Analyst</div>
+                    <div class="experience__company">Kenya Medical Training college</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Sep 2022- Oct 2022</div>
+                    <div class="experience__title">Mapathon Volunteer</div>
+                    <div class="experience__company">Food and Agriculture Organization of the United Nations(FAO)</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    With over 3 years of dedicated work in health information management and research, I have consistently demonstrated my ability to innovate and leverage technology to drive advancements in patient care and public health. My expertise lies in data management, analysis, and visualization, where I have consistently delivered impactful results.
+                </p>
+                <a href="https://www.linkedin.com/in/caleb-munene" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="https://drive.google.com/file/d/1dQOiA5BQ6gaHn3PsvJCYS6S_lhvVpuQ_/view?usp=sharing" class="btn btn-frameless"
+                   target="_blank">
+                    <i class="icon-profile-fill"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2023-2027</div>
+                            <div class="education__title">Open University of Kenya</div>
+                            <div class="education__degree">
+                                Bachelor of Data Science
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2019-2023</div>
+                            <div class="education__title">Kenya Medical Training College</div>
+                            <div class="education__degree">
+                                Diploma in Health Records and Information Technology, Minor in Statistics and M&E
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">05/2023-11/2023</div>
+                            <div class="education__title">KC Community College Kansas, KC</div>
+                            <div class="education__degree">
+                                Associate of arts, Google Data Analytics Certificate
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact Caleb</h2>
+            <div class="row pt-2">
+                
+                
+                  
+                    <img
+                      class="lozad img-responsive image-left-overflow"
+                      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                      data-src="//localhost:4321/img/who-am-i/pic_4.jpg"
+                      data-srcset="//localhost:4321/img/who-am-i/pic_4.jpg 1x, //localhost:4321/img/who-am-i/pic_4.jpg 1x"
+                      alt="Profile Picture"
+                    />
+                  
+               
+              
+                
+                
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>Phone Number</h4>
+                    <span>&#43;254 740 115 558</span>
+                    <h4>Email</h4>
+                    <span><a href="mailto:your-email@gmail.com">mkcaleb@outlook,com</a></span>
+                    <h4>Address</h4>
+                    <span>22150 Nairobi, Kenya</span>
+                    <br /><br />
+                    <a class="btn btn-primary" href='mailto:mkcaleb@outlook.com'>
+                        <i class="icon-mail-fill"></i>
+                        Send Message
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Matt Dancho. All rights reserved.
+      </div>
+    </div>
+    
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#about">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#contact">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footer__right">
+      <div class="footer__copy">
+        Site built with  <a href="https://business-science.github.io/portfoliodown/" target="_blank">portfoliodown</a>.
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+</footer>
+  <script src='//localhost:4321/js/rad-animations.js'></script>
+<script src='//localhost:4321/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='//localhost:4321/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='//localhost:4321/js/library/bootstrap.min.js'></script>
+<script src='//localhost:4321/js/sticky-header.js'></script>
+<script src='//localhost:4321/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='//localhost:4321/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
+  
+</body>
+
+</html>
