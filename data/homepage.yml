@@ -235,7 +235,7 @@ contact:
     number: "+254 740 115 558"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook,com</a>'
+    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook.com</a>'
   address:
     title: "Address"
     address: "22150 Nairobi, Kenya"
