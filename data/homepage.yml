@@ -146,6 +146,7 @@ client_and_work:
         x: "img/works/imm_1.JPG"
         _2x: "img/works/imm_1.JPG"
       is_even: false
+      
     - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
       description: "The Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely."
       button:
