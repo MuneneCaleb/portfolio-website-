@@ -146,18 +146,7 @@ client_and_work:
         x: "img/works/epi_9.jpg"
         _2x: "img/works/epi_9.jpg"
       is_even: true
-
-   - title: "xxxR"
-      description: "xxxxx"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "xx"
-      image:
-        x: "img/works/imm_1.jpg"
-        _2x: "img/works/imm_1.jpg"
-      is_even: false
-      
+    
     - title: "How Can a Wellness Technology Company Play It Smart"
       description: "In the Google Data Analytics Capstone project:How Can a Wellness Technology Company Play It Smart,utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team."
       button:
@@ -213,6 +202,17 @@ client_and_work:
         _2x: "img/works/epi_3.jpg"
       is_even: false
       
+  - title: "xxxR"
+      description: "xxxxx"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "xx"
+      image:
+        x: "img/works/imm_1.jpg"
+        _2x: "img/works/imm_1.jpg"
+      is_even: true
+      
       
 
     
@@ -235,7 +235,7 @@ contact:
     number: "+254 740 115 558"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook.com</a>'
+    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook,com</a>'
   address:
     title: "Address"
     address: "22150 Nairobi, Kenya"
