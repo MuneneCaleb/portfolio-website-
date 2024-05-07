@@ -202,16 +202,7 @@ client_and_work:
         _2x: "img/works/epi_3.jpg"
       is_even: false
       
-  - title: "xxxR"
-      description: "xxxxx"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "xx"
-      image:
-        x: "img/works/imm_1.jpg"
-        _2x: "img/works/imm_1.jpg"
-      is_even: true
+
       
       
 
