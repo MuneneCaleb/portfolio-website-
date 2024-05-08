@@ -136,7 +136,8 @@ client_and_work:
       alt: "Ztos"
 
   works:    
-   - title: "xxxR"
+  
+    - title: "xxxR"
       description: "XXXXXR."
       button:
         icon: "icon-arrow-right"
