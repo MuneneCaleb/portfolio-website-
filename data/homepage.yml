@@ -136,6 +136,16 @@ client_and_work:
       alt: "Ztos"
 
   works:    
+    - title: "Road Casualties in Great Britain 1969–1984"
+      description: "Decades of Tragedy: Road Casualties in Great Britain 1969–1984" leverages data analysis and visualization techniques, including R Shiny, to examine the impact of seat belt legislation on road casualty rates. By shedding light on historical trends and regulatory changes, the project enhances our understanding of road safety dynamics and underscores the importance of evidence-based policymaking in mitigating road accidents and fatalities."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://mkcaleb.shinyapps.io/roadcasualtiesgreatbritain/"
+      image:
+        x: "img/works/uk_2.jpg"
+        _2x: "img/works/uk_2.jpg"
+      is_even: true
   
     - title: "Kenya Immunization Indicators Based on KDHS 2022"
       description: "The "Kenya Immunization Indicators Based on KDHS 2022" project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
@@ -148,17 +158,6 @@ client_and_work:
         _2x: "img/works/imm_1.jpg"
       is_even: false
 
-   - title: "Road Casualties in Great Britain 1969–1984"
-      description: "Decades of Tragedy: Road Casualties in Great Britain 1969–1984" leverages data analysis and visualization techniques, including R Shiny, to examine the impact of seat belt legislation on road casualty rates. By shedding light on historical trends and regulatory changes, the project enhances our understanding of road safety dynamics and underscores the importance of evidence-based policymaking in mitigating road accidents and fatalities."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://mkcaleb.shinyapps.io/roadcasualtiesgreatbritain/"
-      image:
-        x: "img/works/uk_2.jpg"
-        _2x: "img/works/uk_2.jpg"
-      is_even: true
-
     - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
       description: "The Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely."
       button:
@@ -168,7 +167,7 @@ client_and_work:
       image:
         x: "img/works/epi_9.jpg"
         _2x: "img/works/epi_9.jpg"
-      is_even: false
+      is_even: true
    
     - title: "How Can a Wellness Technology Company Play It Smart"
       description: "In the Google Data Analytics Capstone project:How Can a Wellness Technology Company Play It Smart,utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team."
@@ -179,7 +178,7 @@ client_and_work:
       image:
         x: "img/works/m_1.jpg"
         _2x: "img/works/m_1.jpg"
-      is_even: true
+      is_even: false
     
     - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
       description: "Developed ODK questionnaire for research on factors influencing uptake of immunization services rural, Kenya."
@@ -190,7 +189,7 @@ client_and_work:
       image:
         x: "img/works/odk_2.jpg"
         _2x: "img/works/odk_2.jpg"
-      is_even: false
+      is_even: true
    
     - title: "World Internet Users Dashboard"
       description: "The World Internet Users Dashboard was developed using R, involving data cleaning, analysis, and visualization. Various statistical techniques were applied to analyze the data, and a dashboard was designed with charts and graphs. This dashboard effectively communicated key insights on world internet users to its intended audience."
@@ -201,7 +200,7 @@ client_and_work:
       image:
         x: "img/works/epi_11.jpg"
         _2x: "img/works/epi_11.jpg"
-      is_even: true
+      is_even: false
       
     - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
       description: "Developed ODK questionnaire for research on factors affecting the uptake of antenatal care services in Somalia"
@@ -212,7 +211,7 @@ client_and_work:
       image:
         x: "img/works/odk_1.jpg"
         _2x: "img/works/odk_1.jpg"
-      is_even: false
+      is_even: true
       
     - title: "Kenya EPI analysis Google Data Studio dashboard"
       description: "This Google Data Studio dashboard offers a comprehensive analysis of Kenya's Expanded Program on Immunization (EPI), focusing on pentavalent coverage and dropout rates across different counties. The dashboard is meticulously crafted to provide stakeholders with actionable insights and facilitate informed decision-making in healthcare management."
@@ -223,7 +222,7 @@ client_and_work:
       image:
         x: "img/works/epi_3.jpg"
         _2x: "img/works/epi_3.jpg"
-      is_even: true
+      is_even: false
       
 
       
