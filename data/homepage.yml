@@ -136,6 +136,17 @@ client_and_work:
       alt: "Ztos"
 
   works:    
+   - title: "xxxR"
+      description: "XXXXXR."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "xx"
+      image:
+        x: "img/works/uk_1.jpg"
+        _2x: "img/works/uk_1.jpg"
+      is_even: true
+
     - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
       description: "The Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely."
       button:
@@ -168,18 +179,7 @@ client_and_work:
         x: "img/works/odk_2.jpg"
         _2x: "img/works/odk_2.jpg"
       is_even: true
-
-    - title: "xxxR"
-      description: "XXXXXR."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "xx"
-      image:
-        x: "img/works/uk_1.jpg"
-        _2x: "img/works/uk_1.jpg"
-      is_even: true
-      
+   
     - title: "World Internet Users Dashboard"
       description: "The World Internet Users Dashboard was developed using R, involving data cleaning, analysis, and visualization. Various statistical techniques were applied to analyze the data, and a dashboard was designed with charts and graphs. This dashboard effectively communicated key insights on world internet users to its intended audience."
       button:
