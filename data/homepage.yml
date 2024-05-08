@@ -142,7 +142,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "xx"
+        URL: "https://ian-leboo.shinyapps.io/ImmunizationProject_KDHS2022/"
       image:
         x: "img/works/imm_1.jpg"
         _2x: "img/works/imm_1.jpg"
