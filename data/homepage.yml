@@ -135,9 +135,7 @@ client_and_work:
         _2x: "img/clients/ztos@2x.png"
       alt: "Ztos"
 
-  works:  
-
-  - title: "Kenya Immunization Indicators Based on KDHS 2022"
+  works:  - title: "Kenya Immunization Indicators Based on KDHS 2022"
       description: "The "Kenya Immunization Indicators Based on KDHS 2022" project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
       button:
         icon: "icon-arrow-right"
