@@ -157,18 +157,7 @@ client_and_work:
         x: "img/works/m_1.jpg"
         _2x: "img/works/m_1.jpg"
       is_even: false
-
-   - title: "xxxR"
-      description: "XXXXXR."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "xx"
-      image:
-        x: "img/works/uk_1.jpg"
-        _2x: "img/works/uk_1.jpg"
-      is_even: true
-      
+    
     - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
       description: "Developed ODK questionnaire for research on factors influencing uptake of immunization services rural, Kenya."
       button:
@@ -178,6 +167,17 @@ client_and_work:
       image:
         x: "img/works/odk_2.jpg"
         _2x: "img/works/odk_2.jpg"
+      is_even: true
+
+    - title: "xxxR"
+      description: "XXXXXR."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "xx"
+      image:
+        x: "img/works/uk_1.jpg"
+        _2x: "img/works/uk_1.jpg"
       is_even: true
       
     - title: "World Internet Users Dashboard"
