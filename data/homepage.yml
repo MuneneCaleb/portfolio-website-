@@ -59,7 +59,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "https://drive.google.com/file/d/1dQOiA5BQ6gaHn3PsvJCYS6S_lhvVpuQ_/view?usp=sharing"
+    URL: "https://drive.google.com/drive/folders/1kQcnzgxS1P3zmW9E9RcL2k6VYouD-Y5h"
 
   items:
     - title: "Research Assistant"
@@ -140,7 +140,7 @@ client_and_work:
       description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText: "Launch Presentation"
         URL: "xxx"
       image:
         x: "img/works/R.PNG"
