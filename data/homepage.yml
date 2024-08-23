@@ -137,11 +137,11 @@ client_and_work:
 
   works:  
   - title: "Gender-Based Violence Monitoring & Evaluation Report"
-      description: "The Kenya Immunization Indicators Based on KDHS 2022 project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
+      description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://ian-leboo.shinyapps.io/ImmunizationProject_KDHS2022/"
+        URL: "xxx"
       image:
         x: "img/works/imm_1.jpg"
         _2x: "img/works/imm_1.jpg"
