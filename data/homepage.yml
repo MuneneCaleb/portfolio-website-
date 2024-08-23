@@ -100,7 +100,7 @@ education:
 
 # Client & Work
 client_and_work:
-  title: "Portfolio"
+  title: "PROJECTS TO DEMONSTRATE SPECIFIC DATA MANAGEMENT SKILLS"
   enable: true
   
   enable_clients: false
