@@ -143,8 +143,8 @@ client_and_work:
         btnText: "Launch Application"
         URL: "xxx"
       image:
-        x: "img/works/imm_1.jpg"
-        _2x: "img/works/imm_1.jpg"
+        x: "img/works/c14.PNG"
+        _2x: "img/works/c14.PNG"
       is_even: true
       
     - title: "Kenya Immunization Indicators Based on KDHS 2022"
