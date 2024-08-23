@@ -141,7 +141,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Presentation"
-        URL: "xxx"
+        URL: "https://drive.google.com/file/d/1_cl0uOBMvoz1OokLdj00L0pEhUOZZ4uf/view?usp=sharing"
       image:
         x: "img/works/R.PNG"
         _2x: "img/works/R.PNG"
