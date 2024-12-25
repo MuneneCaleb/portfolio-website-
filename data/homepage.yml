@@ -139,7 +139,17 @@ client_and_work:
         _2x: "img/clients/ztos@2x.png"
       alt: "Ztos"
 
-  works:   
+  works:  
+  - title: "Kenya Immunization Indicators Based on KDHS 2022"
+      description: "The Kenya Immunization Indicators Based on KDHS 2022 project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://ian-leboo.shinyapps.io/ImmunizationProject_KDHS2022/"
+      image:
+        x: "img/works/imm_1.jpg"
+        _2x: "img/works/imm_1.jpg"
+      is_even: true
   - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
       description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
       button:
@@ -161,17 +171,6 @@ client_and_work:
         x: "img/works/R.PNG"
         _2x: "img/works/R.PNG"
       is_even: true
-       
-    - title: "Kenya Immunization Indicators Based on KDHS 2022"
-      description: "The Kenya Immunization Indicators Based on KDHS 2022 project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://ian-leboo.shinyapps.io/ImmunizationProject_KDHS2022/"
-      image:
-        x: "img/works/imm_1.jpg"
-        _2x: "img/works/imm_1.jpg"
-      is_even: false
 
     - title: "Road Casualties in Great Britain 1969–1984"
       description: "Decades of Tragedy: Road Casualties in Great Britain 1969–1984 leverages data analysis and visualization techniques, including R Shiny, to examine the impact of seat belt legislation on road casualty rates. By shedding light on historical trends and regulatory changes, the project enhances our understanding of road safety dynamics and underscores the importance of evidence-based policymaking in mitigating road accidents and fatalities."
