@@ -141,14 +141,14 @@ client_and_work:
 
   works:
    - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
-      description: "The WASH Project Evaluation Dashboard is a user-friendly, interactive tool designed to provide a detailed evaluation of a Water, Sanitation, and Hygiene (WASH) project. It simplifies data interpretation by highlighting key findings, actionable recommendations, and project performance metrics through visually appealing and dynamic charts. Built using R Shiny and bs4Dash, the dashboard includes features such as downloadable PDF reports and a theme toggle for enhanced accessibility. This project showcases my expertise in interactive dashboard development, data analysis, and impactful storytelling, exemplifying my ability to merge technical proficiency with practical applications to support data-driven decision-making in the humanitarian sector."
+      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Presentation"
         URL: "https://mkcaleb.shinyapps.io/wash/"
       image:
-        x: "img/works/p_2.PNG"
-        _2x: "img/works/p_2.PNG"
+        x: "img/works/p_3.PNG"
+        _2x: "img/works/p_3.PNG"
       is_even: false
       
    - title: "Gender-Based Violence Monitoring & Evaluation Report"
