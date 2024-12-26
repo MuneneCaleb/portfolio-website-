@@ -101,8 +101,8 @@ client_and_work:
         btnText: "Launch Application"
         URL: "https://mkcaleb.shinyapps.io/wash/"
       image:
-        x: "img/works/p_3.PNG"
-        _2x: "img/works/p_3.PNG"
+        x: "img/works/p_3.jpeg"
+        _2x: "img/works/p_3.jpeg"
       is_even: true
     - title: "Gender-Based Violence Monitoring & Evaluation Report"
       description: "This project involved creating and analyzing a hypothetical dataset representing gender-based violence incidents to inform policy and intervention efforts."
