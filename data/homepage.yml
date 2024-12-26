@@ -95,7 +95,7 @@ client_and_work:
   enable: true
   works:
     - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
-      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
+      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -104,7 +104,7 @@ client_and_work:
         x: "img/works/p_3.jpeg"
         _2x: "img/works/p_3.jpeg"
       is_even: true
-      
+  
     - title: "Gender-Based Violence Monitoring & Evaluation Report"
       description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
       button:
@@ -115,9 +115,9 @@ client_and_work:
         x: "img/works/R.PNG"
         _2x: "img/works/R.PNG"
       is_even: false
-      
+  
     - title: "Kenya Immunization Indicators Based on KDHS 2022"
-      description: "Leverages R Shiny to create an intuitive tool for visualizing vaccination coverage across counties in Kenya."
+      description: "The Kenya Immunization Indicators Based on KDHS 2022 project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -126,9 +126,9 @@ client_and_work:
         x: "img/works/imm_1.jpg"
         _2x: "img/works/imm_1.jpg"
       is_even: true
-      
+  
     - title: "Road Casualties in Great Britain 1969–1984"
-      description: "Examines the impact of seat belt legislation on road casualty rates using data analysis and visualization."
+      description: "Decades of Tragedy: Road Casualties in Great Britain 1969–1984 leverages data analysis and visualization techniques, including R Shiny, to examine the impact of seat belt legislation on road casualty rates. By shedding light on historical trends and regulatory changes, the project enhances our understanding of road safety dynamics and underscores the importance of evidence-based policymaking in mitigating road accidents and fatalities."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -137,8 +137,8 @@ client_and_work:
         x: "img/works/uk_2.jpg"
         _2x: "img/works/uk_2.jpg"
       is_even: false
-
-   - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
+  
+    - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
       description: "This R Shiny Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely."
       button:
         icon: "icon-arrow-right"
@@ -147,10 +147,10 @@ client_and_work:
       image:
         x: "img/works/epi_9.jpg"
         _2x: "img/works/epi_9.jpg"
-      is_even: false
-      
+      is_even: true
+  
     - title: "How Can a Wellness Technology Company Play It Smart"
-      description: "In the Google Data Analytics Capstone project:How Can a Wellness Technology Company Play It Smart,utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team."
+      description: "In the Google Data Analytics Capstone project: How Can a Wellness Technology Company Play It Smart, utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team."
       button:
         icon: "icon-arrow-right"
         btnText: "Read blog"
@@ -158,8 +158,8 @@ client_and_work:
       image:
         x: "img/works/m_1.jpg"
         _2x: "img/works/m_1.jpg"
-      is_even: true
-
+      is_even: false
+  
     - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
       description: "Developed ODK questionnaire for research on factors influencing uptake of immunization services rural, Kenya."
       button:
@@ -169,8 +169,8 @@ client_and_work:
       image:
         x: "img/works/odk_2.jpg"
         _2x: "img/works/odk_2.jpg"
-      is_even: false
-   
+      is_even: true
+  
     - title: "World Internet Users Dashboard"
       description: "The World Internet Users Dashboard was developed using R, involving data cleaning, analysis, and visualization. Various statistical techniques were applied to analyze the data, and a dashboard was designed with charts and graphs. This dashboard effectively communicated key insights on world internet users to its intended audience."
       button:
@@ -180,10 +180,10 @@ client_and_work:
       image:
         x: "img/works/epi_11.jpg"
         _2x: "img/works/epi_11.jpg"
-      is_even: true
-      
+      is_even: false
+  
     - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
-      description: "Developed ODK questionnaire for research on factors affecting the uptake of antenatal care services in Somalia"
+      description: "Developed ODK questionnaire for research on factors affecting the uptake of antenatal care services in Somalia."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -191,8 +191,8 @@ client_and_work:
       image:
         x: "img/works/odk_1.jpg"
         _2x: "img/works/odk_1.jpg"
-      is_even: false
-      
+      is_even: true
+  
     - title: "Kenya EPI analysis Google Data Studio dashboard"
       description: "This Google Data Studio dashboard offers a comprehensive analysis of Kenya's Expanded Program on Immunization (EPI), focusing on pentavalent coverage and dropout rates across different counties. The dashboard is meticulously crafted to provide stakeholders with actionable insights and facilitate informed decision-making in healthcare management."
       button:
@@ -202,5 +202,4 @@ client_and_work:
       image:
         x: "img/works/epi_3.jpg"
         _2x: "img/works/epi_3.jpg"
-      is_even: true
-      
+      is_even: false
