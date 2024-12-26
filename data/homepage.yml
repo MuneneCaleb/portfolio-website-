@@ -123,7 +123,7 @@ client_and_work:
       image:
         x: "img/works/imm_1.jpg"
         _2x: "img/works/imm_1.jpg"
-      is_even: false
+      is_even: true
     - title: "Road Casualties in Great Britain 1969–1984"
       description: "Examines the impact of seat belt legislation on road casualty rates using data analysis and visualization."
       button:
@@ -133,4 +133,4 @@ client_and_work:
       image:
         x: "img/works/uk_2.jpg"
         _2x: "img/works/uk_2.jpg"
-      is_even: true
+      is_even: false
