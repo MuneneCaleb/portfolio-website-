@@ -140,7 +140,7 @@ client_and_work:
       alt: "Ztos"
 
   works:  
-   - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
+  - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
       description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
       button:
         icon: "icon-arrow-right"
