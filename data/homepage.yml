@@ -140,9 +140,7 @@ client_and_work:
       alt: "Ztos"
 
   works:  
-
-      
-   - title: "Gender-Based Violence Monitoring & Evaluation Report"
+  - title: "Gender-Based Violence Monitoring & Evaluation Report"
       description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
       button:
         icon: "icon-arrow-right"
