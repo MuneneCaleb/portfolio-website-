@@ -140,16 +140,7 @@ client_and_work:
       alt: "Ztos"
 
   works:  
-  - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
-      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Presentation"
-        URL: "https://mkcaleb.shinyapps.io/wash/"
-      image:
-        x: "img/works/p_3.PNG"
-        _2x: "img/works/p_3.PNG"
-      is_even: false
+
       
    - title: "Gender-Based Violence Monitoring & Evaluation Report"
       description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
@@ -160,6 +151,17 @@ client_and_work:
       image:
         x: "img/works/R.PNG"
         _2x: "img/works/R.PNG"
+      is_even: false
+
+  - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
+      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Featuring dynamic charts, PDF report downloads, and a theme toggle, it highlights key findings and actionable recommendations. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Presentation"
+        URL: "https://mkcaleb.shinyapps.io/wash/"
+      image:
+        x: "img/works/p_3.PNG"
+        _2x: "img/works/p_3.PNG"
       is_even: true
 
   - title: "Kenya Immunization Indicators Based on KDHS 2022"
