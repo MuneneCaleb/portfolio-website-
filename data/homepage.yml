@@ -4,7 +4,7 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Hello,I’m Caleb Karanja."
+  title: "Hello, I’m Caleb Karanja."
   subtitle: "Data Analyst"
   description: "Caleb, a skilled data analyst, brings a wealth of experience in collecting, transforming, and organizing data to facilitate informed decision-making processes. With proficiency in various analytical tools such as SQL, spreadsheets, Tableau, and R, he excels in extracting actionable insights from complex datasets."
   image:
@@ -13,36 +13,33 @@ showcase:
   imageMobile:
     x: "img/showcase/anime_4.gif"
     _2x: "img/showcase/anime_4.gif"
-
   button:
     icon: "icon-mail-fill"
     btnText: "Contact Caleb"
     URL: "mailto:mkcaleb@outlook.com"
-
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/caleb-munene"
-
     - icon: "github"
       URL: "https://github.com/MuneneCaleb?tab=repositories"
 
-    
 # about
 about:
   enable: true
   title: "Who am I?"
-  content: 
+  content: |
     <p class="lead">
-    <strong>I am an experienced health information professional with a strong background in data management and analysis. My expertise lies in developing data collection forms using tools like Google Forms and ODK, and analyzing data using R, SQL, SPSS, and Excel. I am well-versed in administering data collection tools, conducting research, managing health records, writing reports, and creating data visualizations with tools such as Tableau, MS PowerPoint, Google Data Studio, R Markdown, and GIS maps. I possess excellent verbal and written communication skills, being fluent in English and Swahili, and having a growing proficiency in French. 
+    <strong>I am an experienced health information professional with a strong background in data management and analysis. My expertise lies in developing data collection forms using tools like Google Forms and ODK, and analyzing data using R, SQL, SPSS, and Excel. I am well-versed in administering data collection tools, conducting research, managing health records, writing reports, and creating data visualizations with tools such as Tableau, MS PowerPoint, Google Data Studio, R Markdown, and GIS maps. I possess excellent verbal and written communication skills, being fluent in English and Swahili, and having a growing proficiency in French.
+    </strong>
     </p>
     <p class="lead">
     <strong>I am passionate about leveraging innovative technology solutions to advance patient care and public health. Through my fieldwork and research experience, I have successfully facilitated focus group discussions, conducted in-depth and key informant interviews, summarized project monitoring data, and accurately transcribed audio recordings. I have also administered structured questionnaires, collected quantitative and qualitative data, and ensured accurate documentation while prioritizing subject confidentiality.
-    </p>
+    </strong>
     </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/in/caleb-munene" 
+    URL: "https://www.linkedin.com/in/caleb-munene"
   image:
     x: "img/who-am-i/pic_3.jpg"
     _2x: "img/who-am-i/pic_3.jpg"
@@ -54,34 +51,28 @@ experience:
   description: "With over 2 years of dedicated work in health information management and research, I have consistently demonstrated my ability to innovate and leverage technology to drive advancements in patient care and public health. My expertise lies in data management, analysis, and visualization, where I have consistently delivered impactful results."
   button:
     icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
+    btnText: "LinkedIn"
     URL: "https://www.linkedin.com/in/caleb-munene"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
     URL: "https://drive.google.com/file/d/1OkxwTiFsVkNZr0Q5mKimXuzhMy6FDN20/view?usp=sharing"
-
   items:
-    - title: "Program Officer -Intern"
+    - title: "Program Officer - Intern"
       company: "Solutions CRM-SCRM"
       duration: "Sep 2024 - Present"
-      
     - title: "Research Assistant"
       company: "Africa Research and Data (ARD)"
       duration: "Nov 2023 - Dec 2023"
-
     - title: "Research Assistant"
       company: "Kenyatta University"
       duration: "Aug 2022 – April 2023"
-
     - title: "Research Analyst"
-      company: "Kenya Medical Training college"
+      company: "Kenya Medical Training College"
       duration: "Jun 2022 – Dec 2022"
-      
     - title: "Mapathon Volunteer"
-      company: "Food and Agriculture Organization of the United Nations(FAO)"
-      duration: "Sep 2022- Oct 2022"
-      
+      company: "Food and Agriculture Organization of the United Nations (FAO)"
+      duration: "Sep 2022 - Oct 2022"
 
 # education
 education:
@@ -91,58 +82,30 @@ education:
     - university: "Open University of Kenya"
       year: "2023-2027"
       degree: "Bachelor of Data Science"
-
     - university: "Kenya Medical Training College"
       year: "2019-2023"
       degree: "Diploma in Health Records and Information Technology, Minor in Statistics and M&E"
-      
     - university: "KC Community College Kansas, KC"
       year: "05/2023-11/2023"
-      degree: "Associate of arts, Google Data Analytics Certificate"
+      degree: "Associate of Arts, Google Data Analytics Certificate"
 
-
-
-# Client & Work
+# client_and_work
 client_and_work:
   title: "Projects To Demonstrate Specific Data Management Skills"
   enable: true
-  
-  enable_clients: false
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
-  works:  
-
-  - title: "Gender-Based Violence Monitoring & Evaluation Report"
-      description: "This project involved the creation and analysis of a hypothetical dataset representing gender-based violence (GBV) incidents across various regions. The primary objective was to demonstrate how data-driven insights can be leveraged to address complex social challenges like GBV. The project showcases my ability to design, analyze, and interpret data to inform strategic decisions that can significantly impact policy and intervention efforts."
+  works:
+    - title: "Water, Sanitation, and Hygiene (WASH) Project Dashboard"
+      description: "The WASH Project Evaluation Dashboard is an interactive tool that simplifies the evaluation of Water, Sanitation, and Hygiene (WASH) projects. Built with R Shiny and bs4Dash, this project demonstrates my expertise in dashboard development and data analysis to support data-driven decision-making in the humanitarian sector."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://mkcaleb.shinyapps.io/wash/"
+      image:
+        x: "img/works/p_3.PNG"
+        _2x: "img/works/p_3.PNG"
+      is_even: true
+    - title: "Gender-Based Violence Monitoring & Evaluation Report"
+      description: "This project involved creating and analyzing a hypothetical dataset representing gender-based violence incidents to inform policy and intervention efforts."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Presentation"
@@ -151,10 +114,8 @@ client_and_work:
         x: "img/works/R.PNG"
         _2x: "img/works/R.PNG"
       is_even: false
-
-
-  - title: "Kenya Immunization Indicators Based on KDHS 2022"
-      description: "The Kenya Immunization Indicators Based on KDHS 2022 project leverages the power of R Shiny to create an intuitive and informative tool for visualizing vaccination coverage across counties in Kenya. By providing stakeholders with timely and actionable data, the dashboard contributes to efforts to improve immunization rates and enhance public health outcomes in the region."
+    - title: "Kenya Immunization Indicators Based on KDHS 2022"
+      description: "Leverages R Shiny to create an intuitive tool for visualizing vaccination coverage across counties in Kenya."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -163,9 +124,8 @@ client_and_work:
         x: "img/works/imm_1.jpg"
         _2x: "img/works/imm_1.jpg"
       is_even: false
-
     - title: "Road Casualties in Great Britain 1969–1984"
-      description: "Decades of Tragedy: Road Casualties in Great Britain 1969–1984 leverages data analysis and visualization techniques, including R Shiny, to examine the impact of seat belt legislation on road casualty rates. By shedding light on historical trends and regulatory changes, the project enhances our understanding of road safety dynamics and underscores the importance of evidence-based policymaking in mitigating road accidents and fatalities."
+      description: "Examines the impact of seat belt legislation on road casualty rates using data analysis and visualization."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
@@ -174,102 +134,3 @@ client_and_work:
         x: "img/works/uk_2.jpg"
         _2x: "img/works/uk_2.jpg"
       is_even: true
-      
-    - title: "Dashboard to visualize the 2014 Kenya HIV Prevalence data using R"
-      description: "This R Shiny Dashboard for visualizing the 2014 Kenya HIV Prevalence data in R involved cleaning and manipulating spatial data to ensure accuracy, utilizing R packages like ggplot2, plotly, and maptools for spatial analysis and visualization, applying statistical techniques to extract meaningful insights, and presenting findings concisely."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://mkcaleb.shinyapps.io/hivprevalence/?_ga=2.92824286.2126620061.1681737881-1873350006.1681737881"
-      image:
-        x: "img/works/epi_9.jpg"
-        _2x: "img/works/epi_9.jpg"
-      is_even: false
-      
-    - title: "How Can a Wellness Technology Company Play It Smart"
-      description: "In the Google Data Analytics Capstone project:How Can a Wellness Technology Company Play It Smart,utilizing R packages such as ggplot2 and tidyverse, I conducted data analysis and visualization, contributing to informed decision-making for the Bellabeat Marketing Analytics Team."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Read blog"
-        URL: "https://medium.com/@calebmunene3/how-can-a-wellness-technology-company-play-it-smart-google-data-analytics-capstone-1bca1f59c9f7"
-      image:
-        x: "img/works/m_1.jpg"
-        _2x: "img/works/m_1.jpg"
-      is_even: true
-
-    - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
-      description: "Developed ODK questionnaire for research on factors influencing uptake of immunization services rural, Kenya."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://ee.humanitarianresponse.info/x/idBGQQgN"
-      image:
-        x: "img/works/odk_2.jpg"
-        _2x: "img/works/odk_2.jpg"
-      is_even: false
-   
-    - title: "World Internet Users Dashboard"
-      description: "The World Internet Users Dashboard was developed using R, involving data cleaning, analysis, and visualization. Various statistical techniques were applied to analyze the data, and a dashboard was designed with charts and graphs. This dashboard effectively communicated key insights on world internet users to its intended audience."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://rpubs.com/munenecaleb/997560"
-      image:
-        x: "img/works/epi_11.jpg"
-        _2x: "img/works/epi_11.jpg"
-      is_even: true
-      
-    - title: "Data collection using Android mobile devices, Open Data Kit (ODK)"
-      description: "Developed ODK questionnaire for research on factors affecting the uptake of antenatal care services in Somalia"
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://ee.humanitarianresponse.info/x/ZNTaCpwh"
-      image:
-        x: "img/works/odk_1.jpg"
-        _2x: "img/works/odk_1.jpg"
-      is_even: false
-      
-    - title: "Kenya EPI analysis Google Data Studio dashboard"
-      description: "This Google Data Studio dashboard offers a comprehensive analysis of Kenya's Expanded Program on Immunization (EPI), focusing on pentavalent coverage and dropout rates across different counties. The dashboard is meticulously crafted to provide stakeholders with actionable insights and facilitate informed decision-making in healthcare management."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://lookerstudio.google.com/reporting/bcf4f7a3-6f39-449e-a6ee-b391865442c2"
-      image:
-        x: "img/works/epi_3.jpg"
-        _2x: "img/works/epi_3.jpg"
-      is_even: true
-    
-# contact
-contact:
-  enable: true
-  title: "Contact Caleb"
-    
-  image:
-    x: "img/who-am-i/pic_4.jpg"
-    _2x: "img/who-am-i/pic_4.jpg"
-    
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
-    btnAction: 'mailto:mkcaleb@outlook.com'
-    
-  phone:
-    title: "Phone Number"
-    number: "+254 740 115 558"
-  email:
-    title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook.com</a>'
-  address:
-    title: "Address"
-    address: "22150 Nairobi, Kenya"
-  
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
