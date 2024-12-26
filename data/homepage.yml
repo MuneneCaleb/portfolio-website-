@@ -203,3 +203,26 @@ client_and_work:
         x: "img/works/epi_3.jpg"
         _2x: "img/works/epi_3.jpg"
       is_even: false
+# contact
+contact:
+  enable: true
+  title: "Contact Caleb"
+    
+  image:
+    x: "img/who-am-i/pic_4.jpg"
+    _2x: "img/who-am-i/pic_4.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:mkcaleb@outlook.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "+254 740 115 558"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">mkcaleb@outlook.com</a>'
+  address:
+    title: "Address"
+    address: "22150 Nairobi, Kenya"
